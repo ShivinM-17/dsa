@@ -23,6 +23,7 @@ int main()
     int n,m;
     cin>>n>>m;
 
+    //adjacency matrix representation
     vvi adjm(n+1,vi(m+1,0));
     rep(i,0,m){
         int x,y;
@@ -44,6 +45,7 @@ int main()
     }
     cout<<endl<<endl;
 
+    // adjacency list representation
     cin>>n>>m;
     rep(i,0,m){
         int x,y;
