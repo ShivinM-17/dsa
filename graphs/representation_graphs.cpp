@@ -15,9 +15,6 @@ using namespace std;
 #define ff first
 #define ss second
 
-const int N = 1e5 + 2, MOD =1e9 + 7;
-vi adj[N];
-
 int main()
 {
     int n,m;
@@ -47,6 +44,7 @@ int main()
 
     // adjacency list representation
     cin>>n>>m;
+    vi adj[n];
     rep(i,0,m){
         int x,y;
         cin>>x>>y;
